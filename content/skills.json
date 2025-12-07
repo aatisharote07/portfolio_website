@@ -1,0 +1,34 @@
+{
+  "categories": [
+    {
+      "name": "Frontend",
+      "skills": [
+        { "name": "React" },
+        { "name": "Next.js" },
+        { "name": "TypeScript" },
+        { "name": "Tailwind CSS" },
+        { "name": "HTML/CSS" }
+      ]
+    },
+    {
+      "name": "Backend",
+      "skills": [
+        { "name": "Node.js" },
+        { "name": "Python" },
+        { "name": "PostgreSQL" },
+        { "name": "MongoDB" },
+        { "name": "REST APIs" }
+      ]
+    },
+    {
+      "name": "Tools & DevOps",
+      "skills": [
+        { "name": "Git" },
+        { "name": "Docker" },
+        { "name": "AWS" },
+        { "name": "CI/CD" },
+        { "name": "Testing" }
+      ]
+    }
+  ]
+}
