@@ -13,10 +13,10 @@ const experiences = [
     title: "Intern - Data Visualization",
     company: "Infosys Springboard",
     location: "Remote",
-    period: "Sep 2025– Present (Ongoing)",
+    period: "Sep 2025– Dec 2025",
     description: [
-      "Completed foundational courses in Business Intelligence, Multidimensional Data Modeling, ER Modeling, and DBMS, strengthening database design and management skills.",
-      "Built hands-on expertise in Power BI and Agile Scrum, creating dashboards, interactive reports, and applying teamwork practices used in real-world projects."
+      "Built a unified Global Tourism insight platform that blends Power BI visual storytelling with clean data pipelines, uncovering meaningful trends like seasonal travel peaks and country-wise patterns.",
+      "Developed a Flask-based interactive web app to bring these insights to life, integrating AI-driven analysis and presenting it as the highlighted project of the internship cohort."
     ]
   },
   {
@@ -71,6 +71,10 @@ const certifications = [
   {
     name: "SQL (Basic) Certificate – HackerRank",
     url: "https://www.hackerrank.com/certificates/iframe/4f85da1bb669"
+  },
+  {
+    name: "AWS PartyRock Hackathon",
+    url: "https://drive.google.com/file/d/1hAEldSJhgYbSRFo-lW68pjvquKhtwu71/view?usp=sharing"
   }
 ]
 
