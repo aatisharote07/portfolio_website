@@ -61,6 +61,10 @@ const certifications = [
     url: "https://learn.microsoft.com/en-us/users/aatisharote07/credentials/certification/azure-fundamentals?tab=credentials-tab&source=docs"
   },
   {
+    name: "British Airways Data Science Job Simulation",
+    url: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/tMjbs76F526fF5v3G/NjynCWzGSaWXQCxSX_tMjbs76F526fF5v3G_NQqACaT3jEDuenHGc_1749185988759_completion_certificate.pdf"
+  },
+  {
     name: "Accenture Data Analytics and Visualization Job Simulation",
     url: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/T6kdcdKSTfg2aotxT/hzmoNKtzvAzXsEqx8_T6kdcdKSTfg2aotxT_NQqACaT3jEDuenHGc_1743869859726_completion_certificate.pdf"
   },
