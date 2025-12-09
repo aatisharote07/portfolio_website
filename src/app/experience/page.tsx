@@ -1,5 +1,5 @@
 import { Metadata } from "next"
-import { Briefcase, Calendar, GraduationCap } from "lucide-react"
+import { Briefcase, Calendar, GraduationCap, ExternalLink } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 
@@ -87,6 +87,25 @@ export default function ExperiencePage() {
           My professional journey, education, and certifications.
         </p>
 
+        {/* Certifications */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold mb-6">Certifications</h2>
+          <Card>
+            <CardContent className="pt-6">
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                {certifications.map((cert) => (
+                  <li key={cert.name} className="flex items-start">
+                    <a href={cert.url} target="_blank" rel="noopener noreferrer" className="text-sm hover:underline flex items-center gap-2">
+                      <ExternalLink className="h-4 w-4 text-primary" />
+                      {cert.name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </CardContent>
+          </Card>
+        </section>
+
         {/* Work Experience */}
         <section className="mb-12">
           <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
@@ -156,24 +175,7 @@ export default function ExperiencePage() {
           </div>
         </section>
 
-        {/* Certifications */}
-        <section>
-          <h2 className="text-2xl font-bold mb-6">Certifications</h2>
-          <Card>
-            <CardContent className="pt-6">
-              <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                {certifications.map((cert) => (
-                  <li key={cert.name} className="flex items-start">
-                    <span className="mr-2 text-primary">✓</span>
-                    <a href={cert.url} target="_blank" rel="noopener noreferrer" className="text-sm hover:underline">
-                      {cert.name}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </CardContent>
-          </Card>
-        </section>
+
       </div>
 
       {/* Featured Blog */}

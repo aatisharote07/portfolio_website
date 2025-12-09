@@ -59,12 +59,14 @@ export default function ProjectsPage() {
                     Code
                   </a>
                 </Button>
-                <Button size="sm" asChild className="flex-1">
-                  <a href={project.demo} target="_blank" rel="noopener noreferrer">
-                    <ExternalLink className="h-4 w-4 mr-2" />
-                    Demo
-                  </a>
-                </Button>
+                {project.demo && (
+                  <Button size="sm" asChild className="flex-1">
+                    <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                      <ExternalLink className="h-4 w-4 mr-2" />
+                      Demo
+                    </a>
+                  </Button>
+                )}
               </CardFooter>
             </Card>
           ))}

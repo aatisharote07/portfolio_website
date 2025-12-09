@@ -6,7 +6,7 @@ featured: true
 image: "/images/real_estate_thumbnail.jpg"
 tags: ["Flask", "Scikit-Learn", "Pandas", "NumPy"]
 github: "https://github.com/aatisharote07/REAL_ESTATE_ANALYTICS_APP"
-demo: ""
+demo: "http://3.27.135.110:8501"
 ---
 
 ## Project Overview
