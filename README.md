@@ -328,26 +328,6 @@ npm run test:watch
 # Run tests with coverage
 npm run test:coverage
 ```
-
-## 📊 Performance Optimization
-
-### Image Optimization
-
-- Use Next.js Image component
-- Provide appropriate sizes
-- Use WebP format when possible
-
-### Code Splitting
-
-- Dynamic imports for heavy components
-- Lazy loading for below-the-fold content
-
-### Caching Strategy
-
-- GitHub API responses cached for 1 hour
-- Static content regenerated every 24 hours
-- Assets cached with long-term headers
-
 ## 🔧 Troubleshooting
 
 ### Common Issues
