@@ -188,16 +188,6 @@ Detailed description of your project...
 - TailwindCSS
 ```
 
-### Updating Your Resume
-
-```bash
-# Using the script
-npm run update-resume
-
-# Or manually replace the file
-cp /path/to/your/resume.pdf public/resume.pdf
-```
-
 ### Adding Work Experience
 
 Create a markdown file in `content/experience/`:
