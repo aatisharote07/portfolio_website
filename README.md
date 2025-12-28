@@ -270,7 +270,7 @@ vercel
 | `EMAIL_SERVER_HOST` | SMTP server host | ❌ |
 | `EMAIL_SERVER_PORT` | SMTP server port | ❌ |
 | `EMAIL_FROM` | Sender email address | ❌ |
-| `EMAIL_SERVER_USER` | SMTP username | ❌ |
+
 | `EMAIL_SERVER_PASSWORD` | SMTP password | ❌ |
 
 ## 🎨 Customization
