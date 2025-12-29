@@ -150,7 +150,7 @@ npm run add-project
 Follow the prompts to enter:
 - Project title
 - Description
-- Technologies used
+
 - GitHub URL (optional)
 - Live demo URL (optional)
 - Image URL (optional)
