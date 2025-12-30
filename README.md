@@ -171,9 +171,7 @@ github: "https://github.com/username/repo"
 demo: "https://project-demo.com"
 ---
 
-## Project Overview
 
-Detailed description of your project...
 
 ## Features
 
