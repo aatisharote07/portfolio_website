@@ -17,7 +17,6 @@ A modern, responsive, and easily maintainable portfolio website built with Next.
 ## 📋 Prerequisites
 
 - Node.js 18.17 or later
-- npm or yarn package manager
 - GitHub account (for repository integration)
 - Vercel account (for deployment)
 
