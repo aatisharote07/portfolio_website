@@ -195,7 +195,6 @@ title: "Software Engineer"
 company: "Tech Company"
 location: "San Francisco, CA"
 startDate: "2022-01-01"
-endDate: "present"
 ---
 
 - Developed and maintained React applications
