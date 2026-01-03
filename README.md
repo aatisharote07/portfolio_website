@@ -262,8 +262,7 @@ vercel
 | `GITHUB_TOKEN` | Your GitHub personal access token | ✅ |
 | `GITHUB_USERNAME` | Your GitHub username | ✅ |
 | `NEXT_PUBLIC_SITE_URL` | Your production URL | ✅ |
-| `EMAIL_SERVER_HOST` | SMTP server host | ❌ |
-| `EMAIL_SERVER_PORT` | SMTP server port | ❌ |
+| `EMAIL_SERVER_HOST` | SMTP server host | ❌ 
 | `EMAIL_FROM` | Sender email address | ❌ |
 
 | `EMAIL_SERVER_PASSWORD` | SMTP password | ❌ |
