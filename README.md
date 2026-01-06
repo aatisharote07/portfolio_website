@@ -11,13 +11,12 @@ A modern, responsive, and easily maintainable portfolio website built with Next.
 - **Dark/Light Theme**: Automatic theme detection with manual toggle
 - **SEO Optimized**: Meta tags, Open Graph, structured data
 - **Performance**: Optimized images, code splitting, caching
-- **Accessibility**: WCAG compliant with semantic HTML
+
 - **Analytics Ready**: Built-in support for Vercel Analytics
 
 ## 📋 Prerequisites
 
 - Node.js 18.17 or later
-- npm or yarn package manager
 - GitHub account (for repository integration)
 - Vercel account (for deployment)
 
@@ -150,7 +149,7 @@ npm run add-project
 Follow the prompts to enter:
 - Project title
 - Description
-- Technologies used
+
 - GitHub URL (optional)
 - Live demo URL (optional)
 - Image URL (optional)
@@ -171,31 +170,19 @@ github: "https://github.com/username/repo"
 demo: "https://project-demo.com"
 ---
 
-## Project Overview
 
-Detailed description of your project...
 
 ## Features
 
 - Feature 1
 - Feature 2
-- Feature 3
+
 
 ## Technologies Used
 
 - React 18
 - TypeScript
 - TailwindCSS
-```
-
-### Updating Your Resume
-
-```bash
-# Using the script
-npm run update-resume
-
-# Or manually replace the file
-cp /path/to/your/resume.pdf public/resume.pdf
 ```
 
 ### Adding Work Experience
@@ -208,7 +195,6 @@ title: "Software Engineer"
 company: "Tech Company"
 location: "San Francisco, CA"
 startDate: "2022-01-01"
-endDate: "present"
 ---
 
 - Developed and maintained React applications
@@ -257,7 +243,6 @@ Edit `content/skills.json`:
 ### Manual Deployment
 
 ```bash
-# Install Vercel CLI
 npm i -g vercel
 
 # Deploy
@@ -277,10 +262,9 @@ vercel
 | `GITHUB_TOKEN` | Your GitHub personal access token | ✅ |
 | `GITHUB_USERNAME` | Your GitHub username | ✅ |
 | `NEXT_PUBLIC_SITE_URL` | Your production URL | ✅ |
-| `EMAIL_SERVER_HOST` | SMTP server host | ❌ |
-| `EMAIL_SERVER_PORT` | SMTP server port | ❌ |
+| `EMAIL_SERVER_HOST` | SMTP server host | ❌ 
 | `EMAIL_FROM` | Sender email address | ❌ |
-| `EMAIL_SERVER_USER` | SMTP username | ❌ |
+
 | `EMAIL_SERVER_PASSWORD` | SMTP password | ❌ |
 
 ## 🎨 Customization
@@ -328,26 +312,6 @@ npm run test:watch
 # Run tests with coverage
 npm run test:coverage
 ```
-
-## 📊 Performance Optimization
-
-### Image Optimization
-
-- Use Next.js Image component
-- Provide appropriate sizes
-- Use WebP format when possible
-
-### Code Splitting
-
-- Dynamic imports for heavy components
-- Lazy loading for below-the-fold content
-
-### Caching Strategy
-
-- GitHub API responses cached for 1 hour
-- Static content regenerated every 24 hours
-- Assets cached with long-term headers
-
 ## 🔧 Troubleshooting
 
 ### Common Issues
