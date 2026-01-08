@@ -75,7 +75,6 @@ export const siteConfig = {
   email: "your.email@example.com",
   github: "https://github.com/yourusername",
   linkedin: "https://linkedin.com/in/yourprofile",
-  twitter: "https://twitter.com/yourhandle",
   leetcode: "https://leetcode.com/yourprofile",
   // Add other social links as needed
 }
