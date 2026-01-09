@@ -212,7 +212,7 @@ Edit `content/skills.json`:
       "name": "Frontend",
       "skills": [
         { "name": "React", "level": 90 },
-        { "name": "TypeScript", "level": 85 },
+   
         { "name": "Next.js", "level": 80 }
       ]
     },
