@@ -33,6 +33,7 @@ export const siteConfig = {
     { name: "About", href: "/about" },
     { name: "Projects", href: "/projects" },
     { name: "Experience", href: "/experience" },
+    { name: "Certificates", href: "/certifications" },
     { name: "Skills", href: "/skills" },
     { name: "Contact", href: "/contact" },
   ],

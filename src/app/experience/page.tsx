@@ -35,7 +35,7 @@ const education = [
   {
     degree: "B.E. in Computer Engineering",
     institution: "University of Mumbai",
-    location: "Current SGPI: 8.43/10",
+    location: "CGPA: 8.77",
     period: "Aug 2022 - May 2026",
     description: ""
   },
@@ -55,32 +55,7 @@ const education = [
   }
 ]
 
-const certifications = [
-  {
-    name: "Microsoft Certified: Azure Fundamentals (AZ-900)",
-    url: "https://learn.microsoft.com/en-us/users/aatisharote07/credentials/certification/azure-fundamentals?tab=credentials-tab&source=docs"
-  },
-  {
-    name: "British Airways Data Science Job Simulation",
-    url: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/tMjbs76F526fF5v3G/NjynCWzGSaWXQCxSX_tMjbs76F526fF5v3G_NQqACaT3jEDuenHGc_1749185988759_completion_certificate.pdf"
-  },
-  {
-    name: "Accenture Data Analytics and Visualization Job Simulation",
-    url: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/T6kdcdKSTfg2aotxT/hzmoNKtzvAzXsEqx8_T6kdcdKSTfg2aotxT_NQqACaT3jEDuenHGc_1743869859726_completion_certificate.pdf"
-  },
-  {
-    name: "Python for Beginners – Udemy",
-    url: "https://www.udemy.com/certificate/UC-dfc517f2-0299-444c-95bf-43793335ee47/"
-  },
-  {
-    name: "SQL (Basic) Certificate – HackerRank",
-    url: "https://www.hackerrank.com/certificates/iframe/4f85da1bb669"
-  },
-  {
-    name: "AWS PartyRock Hackathon",
-    url: "https://drive.google.com/file/d/1hAEldSJhgYbSRFo-lW68pjvquKhtwu71/view?usp=sharing"
-  }
-]
+
 
 export default function ExperiencePage() {
   return (
@@ -92,23 +67,9 @@ export default function ExperiencePage() {
         </p>
 
         {/* Certifications */}
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6">Certifications</h2>
-          <Card>
-            <CardContent className="pt-6">
-              <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                {certifications.map((cert) => (
-                  <li key={cert.name} className="flex items-start">
-                    <a href={cert.url} target="_blank" rel="noopener noreferrer" className="text-sm hover:underline flex items-center gap-2">
-                      <ExternalLink className="h-4 w-4 text-primary" />
-                      {cert.name}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </CardContent>
-          </Card>
-        </section>
+        {/* Certifications */}
+        {/* Certifications: Moved to /certifications */}
+
 
         {/* Work Experience */}
         <section className="mb-12">
@@ -120,14 +81,17 @@ export default function ExperiencePage() {
             {experiences.map((exp) => (
               <Card key={exp.company}>
                 <CardHeader>
-                  <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
+                  <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
                     <div>
                       <CardTitle>{exp.title}</CardTitle>
-                      <CardDescription className="mt-1">
-                        {exp.company} • {exp.location}
+                      <CardDescription className="mt-1 font-medium text-foreground">
+                        {exp.company}
+                      </CardDescription>
+                      <CardDescription>
+                        {exp.location}
                       </CardDescription>
                     </div>
-                    <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                    <div className="flex items-center gap-2 text-sm text-muted-foreground whitespace-nowrap">
                       <Calendar className="h-4 w-4" />
                       {exp.period}
                     </div>
@@ -158,14 +122,17 @@ export default function ExperiencePage() {
             {education.map((edu) => (
               <Card key={edu.institution}>
                 <CardHeader>
-                  <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
+                  <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
                     <div>
                       <CardTitle>{edu.degree}</CardTitle>
-                      <CardDescription className="mt-1">
-                        {edu.institution} • {edu.location}
+                      <CardDescription className="mt-1 font-medium text-foreground">
+                        {edu.institution}
+                      </CardDescription>
+                      <CardDescription>
+                        {edu.location}
                       </CardDescription>
                     </div>
-                    <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                    <div className="flex items-center gap-2 text-sm text-muted-foreground whitespace-nowrap">
                       <Calendar className="h-4 w-4" />
                       {edu.period}
                     </div>
