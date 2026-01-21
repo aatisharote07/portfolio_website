@@ -53,7 +53,7 @@ NEXT_PUBLIC_VERCEL_ANALYTICS_ID=your_analytics_id
 # Optional: Contact Form
 EMAIL_SERVER_HOST=smtp.gmail.com
 
-EMAIL_FROM=your-email@gmail.com
+
 EMAIL_SERVER_USER=your-email@gmail.com
 EMAIL_SERVER_PASSWORD=your-app-password
 ```
