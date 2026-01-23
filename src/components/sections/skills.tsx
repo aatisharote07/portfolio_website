@@ -6,32 +6,41 @@ import { TechIcon } from "@/components/ui/tech-icon"
 
 const skillCategories = [
   {
-    name: "Programming & Databases",
+    name: "Core Programming & Data Handling",
     skills: [
       { name: "Python" },
       { name: "SQL" },
-      { name: "MySQL" },
-    ]
-  },
-  {
-    name: "Data Science Libraries",
-    skills: [
       { name: "NumPy" },
       { name: "Pandas" },
-      { name: "Matplotlib" },
-      { name: "Seaborn" },
-      { name: "Scikit-Learn" },
+      { name: "MySQL" },
+      { name: "PostgreSQL" },
+      { name: "MongoDB" },
     ]
   },
   {
-    name: "Tools, Software & Cloud",
+    name: "Data Science & Analytics",
     skills: [
-      { name: "Jupyter Notebook" },
-      { name: "Git" },
-      { name: "Microsoft Excel" },
+      { name: "Scikit-Learn" },
+      { name: "Matplotlib" },
+      { name: "Seaborn" },
       { name: "Tableau" },
+      { name: "Power BI" },
+      { name: "Microsoft Excel" },
+      { name: "Jupyter Notebook" },
+    ]
+  },
+  {
+    name: "Cloud, Engineering & DevOps",
+    skills: [
       { name: "AWS" },
       { name: "Azure" },
+      { name: "Snowflake" },
+      { name: "Flask" },
+      { name: "Docker" },
+      { name: "Linux" },
+      { name: "Git" },
+      { name: "Apache Spark" },
+      { name: "Apache Airflow" },
     ]
   }
 ]

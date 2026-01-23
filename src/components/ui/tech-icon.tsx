@@ -1,6 +1,8 @@
-import { 
-  SiPython, SiNumpy, SiPandas, SiScikitlearn, SiJupyter, SiGit, SiTableau, SiAmazon, SiMysql 
+import {
+  SiPython, SiNumpy, SiPandas, SiScikitlearn, SiJupyter, SiGit, SiTableau, SiAmazon, SiMysql,
+  SiPostgresql, SiMongodb, SiFlask, SiDocker, SiLinux, SiApachespark, SiApacheairflow, SiSnowflake
 } from "react-icons/si";
+import { IoAnalytics } from "react-icons/io5";
 import { FaDatabase } from "react-icons/fa";
 import { BsFiletypeSql } from "react-icons/bs";
 import { VscAzure } from "react-icons/vsc";
@@ -21,6 +23,15 @@ const iconMap: { [key: string]: IconType } = {
   "MySQL": SiMysql,
   "AWS": SiAmazon,
   "Azure": VscAzure,
+  "PostgreSQL": SiPostgresql,
+  "MongoDB": SiMongodb,
+  "Power BI": IoAnalytics,
+  "Flask": SiFlask,
+  "Docker": SiDocker,
+  "Linux": SiLinux,
+  "Apache Spark": SiApachespark,
+  "Apache Airflow": SiApacheairflow,
+  "Snowflake": SiSnowflake,
 };
 
 interface TechIconProps {
