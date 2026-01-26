@@ -13,8 +13,8 @@ export function Resume() {
                                 <h4 className="text-lg font-semibold mb-1">Download Resume</h4>
                                 <p className="text-sm text-muted-foreground">Get my latest resume in PDF format</p>
                             </div>
-                            <Button asChild className="flex items-center gap-2">
-                                <a href="/Resume.pdf" download>
+                            <Button asChild className="flex items-center gap-2 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white shadow-lg hover:shadow-xl hover:shadow-blue-500/25 transition-all duration-300 hover:-translate-y-[2px] animate-subtle-pulse border-0">
+                                <a href="/images/Resume.pdf" download>
                                     <Download className="h-4 w-4" />
                                     Download Resume
                                 </a>

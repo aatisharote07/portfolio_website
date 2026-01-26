@@ -1,0 +1,18 @@
+:root {
+    --theme-bg: #0F172A;
+    /* Deep Slate - Background */
+    --theme-surface: #1E293B;
+    /* Lighter Slate - Card/Surface */
+    --theme-text-primary: #F8FAFC;
+    /* Off-White - Primary Text */
+    --theme-text-secondary: #94A3B8;
+    /* Cool Grey - Secondary Text */
+    --theme-accent: #38BDF8;
+    /* Sky Blue - Primary Accent */
+    --theme-button-text: #0F172A;
+    /* Dark Slate - Button Text */
+    --theme-border: #334155;
+    /* Derived border color (lighter than surface) */
+    --theme-accent-2: #BFA66A;
+    /* Keeping gold just in case, though unused? User said Electric Blue primary. Make it same/similar or secondary accent? Let's leave it or match blue. */
+}

@@ -37,14 +37,15 @@ const iconMap: { [key: string]: IconType } = {
 interface TechIconProps {
   skillName: string;
   size?: number;
+  className?: string;
 }
 
-export function TechIcon({ skillName, size = 28 }: TechIconProps) {
+export function TechIcon({ skillName, size = 28, className }: TechIconProps) {
   const IconComponent = iconMap[skillName];
 
   if (!IconComponent) {
     return null; // Or a default icon
   }
 
-  return <IconComponent size={size} />;
+  return <IconComponent size={size} className={className} />;
 }

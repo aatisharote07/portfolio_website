@@ -1,19 +1,22 @@
+"use client"
+
 import { siteConfig } from "@/config/site";
 import { SiGithub, SiLinkedin, SiCodechef, SiLeetcode, SiKaggle, SiHackerrank } from "react-icons/si";
 import { FaEnvelope } from "react-icons/fa";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
+import { motion } from "framer-motion";
 
 export function Connect() {
-    const socialIcons = {
-        github: { Icon: SiGithub, url: siteConfig.github },
-        linkedin: { Icon: SiLinkedin, url: siteConfig.linkedin },
-        codechef: { Icon: SiCodechef, url: siteConfig.codechef },
-        leetcode: { Icon: SiLeetcode, url: siteConfig.leetcode },
-        kaggle: { Icon: SiKaggle, url: siteConfig.kaggle },
-        hackerrank: { Icon: SiHackerrank, url: siteConfig.hackerrank },
-        email: { Icon: FaEnvelope, url: `mailto:${siteConfig.email}` },
-    };
+    const socials = [
+        { name: "GitHub", Icon: SiGithub, color: "#0F1724", url: siteConfig.github },
+        { name: "LinkedIn", Icon: SiLinkedin, color: "#5B6CFF", url: siteConfig.linkedin },
+        { name: "CodeChef", Icon: SiCodechef, color: "#6B7280", url: siteConfig.codechef },
+        { name: "LeetCode", Icon: SiLeetcode, color: "#BFA66A", url: siteConfig.leetcode },
+        { name: "Kaggle", Icon: SiKaggle, color: "#5B6CFF", url: siteConfig.kaggle },
+        { name: "HackerRank", Icon: SiHackerrank, color: "#2EC866", url: siteConfig.hackerrank },
+        { name: "Email", Icon: FaEnvelope, color: "#EA4335", url: `mailto:${siteConfig.email}` },
+    ];
 
     return (
         <section id="connect" className="py-20">
@@ -26,22 +29,29 @@ export function Connect() {
                     <CardContent>
                         <TooltipProvider>
                             <div className="flex flex-wrap gap-4 justify-center">
-                                {Object.entries(socialIcons).map(([key, { Icon, url }]) => (
-                                    url && (
-                                        <Tooltip key={key}>
+                                {socials.map((social) => (
+                                    social.url && (
+                                        <Tooltip key={social.name}>
                                             <TooltipTrigger asChild>
-                                                <a
-                                                    href={url}
+                                                <motion.a
+                                                    href={social.url}
                                                     target="_blank"
                                                     rel="noopener noreferrer"
-                                                    className="text-muted-foreground hover:text-primary transition-colors p-3 rounded-full hover:bg-accent"
-                                                    aria-label={`${key} profile`}
+                                                    style={{ "--btn-color": social.color } as React.CSSProperties}
+                                                    className="p-3 rounded-xl bg-muted/50 border border-transparent flex items-center justify-center text-muted-foreground hover:bg-[var(--btn-color)] hover:text-white transition-all duration-300"
+                                                    whileHover={{
+                                                        scale: 1.1,
+                                                        rotate: 5,
+                                                    }}
+                                                    transition={{ duration: 0.3 }}
+                                                    aria-label={`${social.name} profile`}
                                                 >
-                                                    <Icon className="h-6 w-6" />
-                                                </a>
+                                                    <social.Icon className="h-6 w-6 dark:invert dark:brightness-200" />
+                                                    <span className="sr-only">{social.name}</span>
+                                                </motion.a>
                                             </TooltipTrigger>
                                             <TooltipContent>
-                                                <p className="capitalize">{key}</p>
+                                                <p>{social.name}</p>
                                             </TooltipContent>
                                         </Tooltip>
                                     )

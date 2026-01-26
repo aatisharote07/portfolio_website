@@ -7,6 +7,13 @@ import { Badge } from "@/components/ui/badge"
 
 const certificates = [
     {
+        title: "Microsoft Certified: Power BI Data Analyst Associate",
+        issuer: "Microsoft",
+        date: "January 2026",
+        url: "https://learn.microsoft.com/en-us/users/aatisharote07/credentials/certification/data-analyst-associate?tab=credentials-tab",
+        image: "/images/power-bi-associate.png"
+    },
+    {
         title: "Microsoft Certified: Azure Fundamentals (AZ-900)",
         issuer: "Microsoft",
         date: "July 2025",
@@ -51,7 +58,7 @@ const certificates = [
     {
         title: "AWS PartyRock Hackathon",
         issuer: "AWS",
-        date: "October 2023",
+        date: "9th October, 2025",
         url: "https://drive.google.com/file/d/1hAEldSJhgYbSRFo-lW68pjvquKhtwu71/view?usp=sharing",
         image: "/images/certifications/aws-participation-2025.png"
     }
@@ -91,13 +98,13 @@ export function Certificates() {
                                     href={cert.url}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="block relative h-48 bg-muted overflow-hidden"
+                                    className="block relative h-48 bg-white overflow-hidden"
                                 >
-                                    <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors z-10" />
+                                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors z-10" />
                                     <img
                                         src={cert.image}
                                         alt={cert.title}
-                                        className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                        className="w-full h-full object-contain transform group-hover:scale-105 transition-transform duration-500"
                                     />
                                     <div className="absolute top-2 right-2 z-20 opacity-0 group-hover:opacity-100 transition-opacity">
                                         <Badge variant="secondary" className="bg-black/50 text-white backdrop-blur-sm">

@@ -1,6 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
+import { TypeAnimation } from 'react-type-animation'
 import { ArrowDown } from "lucide-react"
 import { SiGithub, SiLinkedin, SiCodechef, SiLeetcode, SiKaggle } from "react-icons/si"
 import { FaEnvelope } from "react-icons/fa"
@@ -18,64 +19,77 @@ export function Hero() {
   };
   return (
     <section
-      className="min-h-screen flex items-center justify-center relative overflow-hidden"
+      className="min-h-screen flex items-center justify-center relative overflow-hidden hero-blobs"
+      aria-label="Hero"
     >
-      <div className="container mx-auto px-4 py-20">
+      <div className="container mx-auto px-4 pt-12 pb-20 md:pt-20 md:pb-32">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-center space-y-6"
+          className="text-center"
         >
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-white"
+            className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-none text-foreground mb-6"
           >
-            Hi, I&apos;m <span className="gradient-text">{siteConfig.name}</span>
+            Hi, I&apos;m <span className="text-primary" style={{ textShadow: "var(--title-glow, none)" }}>{siteConfig.name}</span>
           </motion.h1>
 
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto mt-4"
+            className="text-2xl md:text-3xl text-muted-foreground max-w-3xl mx-auto mb-6"
           >
             {siteConfig.title}
-          </motion.p>
-
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.3 }}
-            className="text-lg text-muted-foreground max-w-3xl mx-auto"
-          >
-            {siteConfig.description}
           </motion.p>
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.4 }}
-            className="flex flex-wrap gap-4 justify-center items-center mt-8"
+            transition={{ duration: 0.5, delay: 0.3 }}
+            className="text-lg text-muted-foreground max-w-3xl mx-auto min-h-[60px] mb-10"
           >
-            <Button size="lg" asChild>
-              <a href="#contact">Get in Touch</a>
+            <TypeAnimation
+              sequence={[
+                siteConfig.description,
+                1000
+              ]}
+              wrapper="span"
+              speed={65}
+              style={{ display: 'inline-block' }}
+              repeat={0}
+            />
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.4 }}
+            className="flex flex-col sm:flex-row gap-4 justify-center items-center"
+          >
+            <Button size="lg" className="font-bold text-lg px-8" asChild>
+              <a href="#projects">View Projects</a>
+            </Button>
+            <Button size="lg" variant="ghost" className="text-muted-foreground hover:text-foreground" asChild>
+              <a href="/images/Resume.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
             </Button>
           </motion.div>
-        </motion.div>
 
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.6 }}
-          className="absolute bottom-8 left-1/2 -translate-x-1/2"
-        >
-          <a href="#projects" className="flex flex-col items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
-            <span className="text-sm">Scroll to explore</span>
-            <ArrowDown className="h-5 w-5 animate-bounce" />
-          </a>
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.5, delay: 0.6 }}
+            className="mt-16"
+          >
+            <a href="#projects" className="flex flex-col items-center gap-2 text-muted-foreground hover:text-foreground transition-colors">
+              <span className="text-sm">Scroll to explore</span>
+              <ArrowDown className="h-5 w-5 animate-bounce" />
+            </a>
+          </motion.div>
         </motion.div>
       </div>
     </section>

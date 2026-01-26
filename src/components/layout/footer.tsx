@@ -20,7 +20,7 @@ export function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="font-bold gradient-text text-xl">{siteConfig.name}</h3>
+            <h3 className="font-bold text-primary text-xl">{siteConfig.name}</h3>
             <p className="text-sm text-muted-foreground mt-2">{siteConfig.title}</p>
           </div>
           <div>
@@ -36,8 +36,8 @@ export function Footer() {
             </ul>
           </div>
         </div>
-        
-        
+
+
         <div className="mt-8 pt-8 border-t text-center text-sm text-muted-foreground">
           © {new Date().getFullYear()} {siteConfig.name}. All rights reserved.
         </div>

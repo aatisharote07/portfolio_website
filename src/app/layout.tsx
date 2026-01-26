@@ -4,6 +4,7 @@ import { ThemeProvider } from '@/components/providers/theme-provider'
 import { Navigation } from '@/components/layout/navigation'
 import { Footer } from '@/components/layout/footer'
 import { Analytics } from '@/components/analytics'
+import '@/styles/colors.css'
 import '@/styles/globals.css'
 
 const fontHeading = Indeed_Sans({
@@ -37,7 +38,7 @@ export const metadata: Metadata = {
     url: 'https://aatisharote.com', // Assuming this or similar, checking config might be better but for now replacing placehodelr
     siteName: 'Aatish Arote Portfolio',
     title: 'Aatish Arote | Portfolio',
-    description: 'Data Scientist and Data Analyst specializing in building data-driven solutions and extracting actionable insights from complex datasets.',
+    description: 'Turning Data into Scalable Insights and Intelligent Solutions.',
     images: [
       {
         url: '/og.png', // Simplified path
@@ -50,7 +51,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Aatish Arote | Portfolio',
-    description: 'Data Scientist and Data Analyst specializing in building data-driven solutions and extracting actionable insights from complex datasets.',
+    description: 'Turning Data into Scalable Insights and Intelligent Solutions.',
     creator: '@aatisharote07', // Making a guess or should I use config? Config has no twitter but github/linkedin. I'll stick to a reasonable placeholder or remove specific creator if unknown, but better to match style.
     images: ['/og.png'],
   },
@@ -70,6 +71,10 @@ export const metadata: Metadata = {
   },
 }
 
+import { BackgroundOrbs } from '@/components/layout/background-orbs'
+
+// ... existing imports
+
 export default function RootLayout({
   children,
 }: {
@@ -84,9 +89,13 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <BackgroundOrbs />
           <div className="relative min-h-screen flex flex-col">
+            <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:z-[100] focus:top-4 focus:left-4 focus:p-4 focus:bg-background focus:text-foreground focus:rounded-md focus:shadow-lg focus:ring-2 focus:ring-primary">
+              Skip to content
+            </a>
             <Navigation />
-            <main className="flex-1">{children}</main>
+            <main id="main-content" className="flex-1">{children}</main>
             <Footer />
           </div>
           <Analytics />

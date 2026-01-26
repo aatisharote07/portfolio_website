@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "Aatish Arote",
   title: "Aatish Arote | Portfolio",
-  description: "Data Scientist and Data Analyst specializing in building data-driven solutions and extracting actionable insights from complex datasets.",
+  description: "Turning Data into Scalable Insights and Intelligent Solutions.",
   email: "aatisharote07@gmail.com",
   phone: "+91 8623071089", // Add your phone number here if you want
   location: "Mumbai, India", // Add your location here if you want
