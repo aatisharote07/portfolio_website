@@ -40,16 +40,13 @@ export default function AboutPage() {
                 <h3 className="text-2xl font-bold mb-4">Background</h3>
                 <div className="space-y-4 text-muted-foreground">
                   <p>
-                    Hey, I&apos;m Aatish. I work across the data stack building analytics pipelines, training ML models, and designing interactive visualizations to create solutions that are reliable, intuitive, and genuinely useful.
+                    Hey, I&apos;m Aatish. I am a Computer Engineering undergraduate (Class of 2026) and a Microsoft Certified Data Analyst (PL-300). My work bridges the gap between raw data and actionable strategy using Python, SQL, and Power BI to build pipelines and dashboards that are reliable, intuitive, and genuinely useful.
                   </p>
                   <p>
-                    I&apos;m fascinated by generative AI and agentic workflows, particularly how they transform the way people interact with information. I&apos;m drawn to problems that combine analytical rigor with creativity, pushing me to understand the world more deeply.
+                    I have hands-on experience leading data visualization projects, including a remote internship with Infosys Springboard, where I honed my ability to turn complex datasets into clear narratives. I&apos;m particularly fascinated by how Generative AI and agentic workflows are transforming analytics, and I actively build projects like my Real Estate Analytics platform to push those boundaries.
                   </p>
                   <p>
-                    My approach is rooted in curiosity and continuous learning. I constantly ask &quot;why?&quot; and &quot;how can this be better?&quot; treating every project as an opportunity to grow. I believe in discipline and consistency: showing up every day, iterating relentlessly, and trusting that sustained effort creates meaningful progress.
-                  </p>
-                  <p>
-                    My projects and resume cover the technical details. This space is about how I think, learn, and approach my work.
+                    My approach is rooted in discipline and curiosity. Whether I&apos;m training ML models or refining an ETL pipeline, I treat every error as a lesson and every project as an opportunity to grow. I believe that sustained, daily effort is the only secret to meaningful progress.
                   </p>
                 </div>
               </CardContent>

@@ -59,7 +59,7 @@ export function Hero() {
                 1000
               ]}
               wrapper="span"
-              speed={65}
+              speed={40}
               style={{ display: 'inline-block' }}
               repeat={0}
             />

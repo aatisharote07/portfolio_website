@@ -7,7 +7,7 @@ import { TechIcon } from "@/components/ui/tech-icon"
 const skillCategories = [
   {
     name: "Core Programming & Data Handling",
-    color: "var(--theme-accent)", // Electric Blue
+    color: "#3b82f6", // Blue
     skills: [
       { name: "Python" },
       { name: "SQL" },
@@ -20,7 +20,7 @@ const skillCategories = [
   },
   {
     name: "Data Science & Analytics",
-    color: "var(--theme-accent)", // Electric Blue
+    color: "#8b5cf6", // Purple
     skills: [
       { name: "Scikit-Learn" },
       { name: "Matplotlib" },
@@ -33,7 +33,7 @@ const skillCategories = [
   },
   {
     name: "Cloud, Engineering & DevOps",
-    color: "var(--theme-accent)", // Electric Blue
+    color: "#10b981", // Green
     skills: [
       { name: "AWS" },
       { name: "Azure" },
