@@ -1,7 +1,7 @@
 "use client"
 
 import { siteConfig } from "@/config/site";
-import { SiGithub, SiLinkedin, SiCodechef, SiLeetcode, SiKaggle, SiHackerrank } from "react-icons/si";
+import { SiGithub, SiLinkedin, SiCodechef, SiLeetcode, SiKaggle, SiHackerrank, SiX } from "react-icons/si";
 import { FaEnvelope } from "react-icons/fa";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
@@ -15,6 +15,7 @@ export function Connect() {
         { name: "LeetCode", Icon: SiLeetcode, color: "#BFA66A", url: siteConfig.leetcode },
         { name: "Kaggle", Icon: SiKaggle, color: "#5B6CFF", url: siteConfig.kaggle },
         { name: "HackerRank", Icon: SiHackerrank, color: "#2EC866", url: siteConfig.hackerrank },
+        { name: "X", Icon: SiX, color: "#000000", url: siteConfig.twitter },
         { name: "Email", Icon: FaEnvelope, color: "#EA4335", url: `mailto:${siteConfig.email}` },
     ];
 

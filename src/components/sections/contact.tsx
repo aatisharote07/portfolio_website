@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import { Mail, MapPin, Phone } from "lucide-react"
-import { SiGithub, SiLinkedin, SiCodechef, SiLeetcode, SiKaggle } from "react-icons/si"
+import { SiGithub, SiLinkedin, SiCodechef, SiLeetcode, SiKaggle, SiX } from "react-icons/si"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
@@ -16,6 +16,7 @@ export function Contact() {
     { name: "CodeChef", Icon: SiCodechef, color: "#6B7280", url: siteConfig.codechef }, // Using Muted/Grey
     { name: "LeetCode", Icon: SiLeetcode, color: "#BFA66A", url: siteConfig.leetcode }, // Using Gold
     { name: "Kaggle", Icon: SiKaggle, color: "#5B6CFF", url: siteConfig.kaggle },
+    { name: "X", Icon: SiX, color: "#000000", url: siteConfig.twitter },
   ]
 
   return (

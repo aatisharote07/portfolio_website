@@ -11,6 +11,7 @@ export const siteConfig = {
   leetcode: "https://leetcode.com/u/Aatish09/",
   kaggle: "https://www.kaggle.com/aatisharote",
   hackerrank: "https://www.hackerrank.com/profile/Aatish07",
+  twitter: "https://x.com/aatish_arote",
 
   // GitHub API Configuration
   githubUsername: process.env.GITHUB_USERNAME || "aatisharote07",
