@@ -56,12 +56,12 @@ export function Hero() {
             <TypeAnimation
               sequence={[
                 siteConfig.description,
-                1000
+                2000
               ]}
               wrapper="span"
               speed={40}
               style={{ display: 'inline-block' }}
-              repeat={0}
+              repeat={Infinity}
             />
           </motion.div>
 
