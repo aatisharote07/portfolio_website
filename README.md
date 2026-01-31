@@ -367,9 +367,6 @@ This project is open source and available under the [MIT License](LICENSE).
 - Tailwind CSS for the utility-first CSS framework
 - All open-source contributors
 
-## 📞 Support
-
-For support, email your.email@example.com or open an issue on GitHub.
 
 ---
 
