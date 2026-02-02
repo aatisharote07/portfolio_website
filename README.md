@@ -106,7 +106,7 @@ portfolio-website/
 │   └── styles/          # Global styles
 ├── scripts/             # Helper scripts
 │   ├── add-project.js   # Add new project
-│   └── update-resume.js # Update resume
+│   └── update-resume.js 
 └── package.json
 ```
 
