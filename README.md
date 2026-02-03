@@ -159,7 +159,7 @@ Create a new markdown file in `content/projects/`:
 ---
 title: "Project Name"
 description: "Brief description of your project"
-date: "2024-01-15"
+
 featured: true
 image: "/images/project-screenshot.png"
 tags: ["React", "TypeScript", "Node.js"]
