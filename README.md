@@ -196,7 +196,7 @@ startDate: "2022-01-01"
 
 - Developed and maintained React applications
 - Collaborated with cross-functional teams
-- Improved application performance by 40%
+
 ```
 
 ### Updating Skills
