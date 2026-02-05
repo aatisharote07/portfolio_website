@@ -105,7 +105,7 @@ portfolio-website/
 │   ├── lib/             # Utility functions
 │   └── styles/          # Global styles
 ├── scripts/             # Helper scripts
-│   ├── add-project.js   # Add new project
+│   ├── add-project.js  
 │   └── update-resume.js 
 └── package.json
 ```
