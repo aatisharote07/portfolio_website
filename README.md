@@ -104,7 +104,7 @@ portfolio-website/
 │   │   └── sections/    # Page sections
 │   ├── lib/             # Utility functions
 │   └── styles/          # Global styles
-├── scripts/             # Helper scripts
+├── scripts/            
 │   ├── add-project.js  
 │   └── update-resume.js 
 └── package.json
