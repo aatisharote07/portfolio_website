@@ -74,7 +74,7 @@ export const siteConfig = {
   github: "https://github.com/yourusername",
   linkedin: "https://linkedin.com/in/yourprofile",
   leetcode: "https://leetcode.com/yourprofile",
-  // Add other social links as needed
+  // Add other social links 
 }
 ```
 
