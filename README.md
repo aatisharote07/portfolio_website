@@ -103,7 +103,7 @@ portfolio-website/
 │   │   ├── layout/      # Layout components
 │   │   └── sections/    # Page sections
 │   ├── lib/             # Utility functions
-│   └── styles/          # Global styles
+│   └── styles/         
 ├── scripts/            
 │   ├── add-project.js  
 │   └── update-resume.js 
