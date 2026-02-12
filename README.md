@@ -245,7 +245,7 @@ npm i -g vercel
 # Deploy
 vercel
 
-# Follow the prompts
+
 ```
 
 ### Environment Variables in Vercel
