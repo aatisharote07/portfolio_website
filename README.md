@@ -262,8 +262,6 @@ vercel
 | `EMAIL_SERVER_HOST` | SMTP server host | ❌ 
 | `EMAIL_FROM` | Sender email address | ❌ |
 
-| `EMAIL_SERVER_PASSWORD` | SMTP password | ❌ |
-
 ## 🎨 Customization
 
 ### Changing Colors
