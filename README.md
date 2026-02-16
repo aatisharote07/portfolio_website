@@ -260,7 +260,7 @@ vercel
 | `GITHUB_USERNAME` | Your GitHub username | ✅ |
 | `NEXT_PUBLIC_SITE_URL` | Your production URL | ✅ |
 | `EMAIL_SERVER_HOST` | SMTP server host | ❌ 
-| `EMAIL_FROM` | Sender email address | ❌ |
+
 
 ## 🎨 Customization
 
