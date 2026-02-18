@@ -102,7 +102,7 @@ portfolio-website/
 │   │   ├── ui/          # UI components
 │   │   ├── layout/      # Layout components
 │   │   └── sections/    # Page sections
-│   ├── lib/             # Utility functions
+│   ├── lib/             
 │   └── styles/         
 ├── scripts/            
 │   ├── add-project.js  
