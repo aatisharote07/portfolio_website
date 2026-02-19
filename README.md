@@ -95,7 +95,7 @@ portfolio-website/
 │   │   ├── layout.tsx   # Root layout
 │   │   ├── page.tsx     # Home page
 │   │   ├── about/       # About page
-│   │   ├── projects/    # Projects pages
+│   │   ├── projects/    
 │   │   ├── experience/  # Experience page
 │   │   └── contact/     # Contact page
 │   ├── components/      # React components
