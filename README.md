@@ -101,7 +101,7 @@ portfolio-website/
 │   ├── components/      # React components
 │   │   ├── ui/          # UI components
 │   │   ├── layout/      # Layout components
-│   │   └── sections/    # Page sections
+│   │   └── sections/    
 │   ├── lib/             
 │   └── styles/         
 ├── scripts/            
