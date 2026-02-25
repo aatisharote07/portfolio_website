@@ -340,7 +340,7 @@ npm run test:coverage
 | `npm run start` | Run production build |
 | `npm run lint` | Run ESLint |
 | `npm run format` | Format code with Prettier |
-| `npm run test` | Run tests |
+
 | `npm run add-project` | Add new project interactively |
 | `npm run update-resume` | Update resume file |
 
