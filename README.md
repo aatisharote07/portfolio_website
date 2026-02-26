@@ -100,7 +100,7 @@ portfolio-website/
 │   │   └── contact/     # Contact page
 │   ├── components/      # React components
 │   │   ├── ui/          # UI components
-│   │   ├── layout/      # Layout components
+│   │   ├── layout/      
 │   │   └── sections/    
 │   ├── lib/             
 │   └── styles/         
