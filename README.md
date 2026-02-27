@@ -338,7 +338,7 @@ npm run test:coverage
 | `npm run dev` | Start development server |
 | `npm run build` | Build for production |
 | `npm run start` | Run production build |
-| `npm run lint` | Run ESLint |
+
 | `npm run format` | Format code with Prettier |
 
 | `npm run add-project` | Add new project interactively |
