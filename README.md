@@ -99,7 +99,7 @@ portfolio-website/
 │   │   ├── experience/  # Experience page
 │   │   └── contact/     # Contact page
 │   ├── components/      # React components
-│   │   ├── ui/          # UI components
+│   │   ├── ui/          
 │   │   ├── layout/      
 │   │   └── sections/    
 │   ├── lib/             
