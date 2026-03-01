@@ -98,7 +98,7 @@ portfolio-website/
 │   │   ├── projects/    
 │   │   ├── experience/  # Experience page
 │   │   └── contact/     # Contact page
-│   ├── components/      # React components
+│   ├── components/      
 │   │   ├── ui/          
 │   │   ├── layout/      
 │   │   └── sections/    
