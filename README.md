@@ -40,7 +40,7 @@ yarn install
 Create a `.env.local` file in the root directory:
 
 ```env
-# GitHub Integration (Required)
+# GitHub Integration 
 GITHUB_TOKEN=your_github_personal_access_token
 GITHUB_USERNAME=your_github_username
 
