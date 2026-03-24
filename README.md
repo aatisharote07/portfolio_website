@@ -97,7 +97,7 @@ portfolio-website/
 │   │   ├── about/       # About page
 │   │   ├── projects/    
 │   │   ├── experience/  # Experience page
-│   │   └── contact/     # Contact page
+│   │   └── contact/    
 │   ├── components/      
 │   │   ├── ui/          
 │   │   ├── layout/      
