@@ -6,7 +6,6 @@ featured: true
 image: "/images/tourism_ai_thumbnail.jpg"
 tags: ["Flask", "Power BI", "AI", "OCR", "Python"]
 github: "https://github.com/aatisharote07/TOURISM_AI"
-demo: "http://3.27.240.152:8000"
 ---
 
 ## Project Overview
