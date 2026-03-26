@@ -96,7 +96,7 @@ portfolio-website/
 │   │   ├── page.tsx     # Home page
 │   │   ├── about/       # About page
 │   │   ├── projects/    
-│   │   ├── experience/  # Experience page
+│   │   ├── experience/  
 │   │   └── contact/    
 │   ├── components/      
 │   │   ├── ui/          
