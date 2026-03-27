@@ -94,7 +94,7 @@ portfolio-website/
 │   ├── app/             # Next.js app directory
 │   │   ├── layout.tsx   # Root layout
 │   │   ├── page.tsx     # Home page
-│   │   ├── about/       # About page
+│   │   ├── about/       
 │   │   ├── projects/    
 │   │   ├── experience/  
 │   │   └── contact/    
