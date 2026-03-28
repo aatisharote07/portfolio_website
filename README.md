@@ -93,7 +93,7 @@ portfolio-website/
 ├── src/
 │   ├── app/             # Next.js app directory
 │   │   ├── layout.tsx   # Root layout
-│   │   ├── page.tsx     # Home page
+│   │   ├── page.tsx     
 │   │   ├── about/       
 │   │   ├── projects/    
 │   │   ├── experience/  
