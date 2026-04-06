@@ -92,7 +92,7 @@ portfolio-website/
 │   └── resume.pdf       # Your resume file
 ├── src/
 │   ├── app/             # Next.js app directory
-│   │   ├── layout.tsx   # Root layout
+│   │   ├── layout.tsx  
 │   │   ├── page.tsx     
 │   │   ├── about/       
 │   │   ├── projects/    
