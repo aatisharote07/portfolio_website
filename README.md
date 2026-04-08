@@ -91,7 +91,7 @@ portfolio-website/
 │   ├── images/          # Images
 │   └── resume.pdf       # Your resume file
 ├── src/
-│   ├── app/             # Next.js app directory
+│   ├── app/             
 │   │   ├── layout.tsx  
 │   │   ├── page.tsx     
 │   │   ├── about/       
