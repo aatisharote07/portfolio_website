@@ -89,7 +89,7 @@ portfolio-website/
 │   └── about.md         # About page content
 ├── public/              # Static assets
 │   ├── images/          # Images
-│   └── resume.pdf       # Your resume file
+│   └── resume.pdf       
 ├── src/
 │   ├── app/             
 │   │   ├── layout.tsx  
