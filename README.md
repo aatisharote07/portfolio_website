@@ -88,7 +88,7 @@ portfolio-website/
 │   ├── skills/          # Skills data
 │   └── about.md         # About page content
 ├── public/              # Static assets
-│   ├── images/          # Images
+│   ├── images/          
 │   └── resume.pdf       
 ├── src/
 │   ├── app/             
