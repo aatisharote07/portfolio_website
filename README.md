@@ -87,7 +87,7 @@ portfolio-website/
 │   ├── experience/      # Work experience
 │   ├── skills/          # Skills data
 │   └── about.md         # About page content
-├── public/              # Static assets
+├── public/             
 │   ├── images/          
 │   └── resume.pdf       
 ├── src/
