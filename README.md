@@ -85,7 +85,7 @@ portfolio-website/
 ├── content/              # Markdown content files
 │   ├── projects/        # Manual project entries
 │   ├── experience/      # Work experience
-│   ├── skills/          # Skills data
+│   ├── skills/          
 │   └── about.md         
 ├── public/             
 │   ├── images/          
