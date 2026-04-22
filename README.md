@@ -82,7 +82,7 @@ export const siteConfig = {
 
 ```
 portfolio-website/
-├── content/              # Markdown content files
+├── content/             
 │   ├── projects/        
 │   ├── experience/      
 │   ├── skills/          
