@@ -40,10 +40,10 @@ export default function AboutPage() {
                 <h3 className="text-2xl font-bold mb-4">Background</h3>
                 <div className="space-y-4 text-muted-foreground">
                   <p>
-                    Hey, I&apos;m Aatish. I am a Computer Engineering undergraduate (Class of 2026) and a Microsoft Certified Data Analyst (PL-300). My work bridges the gap between raw data and actionable strategy using Python, SQL, and Power BI to build pipelines and dashboards that are reliable, intuitive, and genuinely useful.
+                    Hey, I&apos;m Aatish. I am a recent Computer Engineering graduate (Class of 2026) and a Microsoft Certified Data Analyst (PL-300). My work bridges the gap between raw data and actionable strategy using Python, SQL, and Power BI to build pipelines and dashboards that are reliable, intuitive, and genuinely useful.
                   </p>
                   <p>
-                    I have hands-on experience leading data visualization projects, including a remote internship with Infosys Springboard, where I honed my ability to turn complex datasets into clear narratives. I&apos;m particularly fascinated by how Generative AI and agentic workflows are transforming analytics, and I actively build projects like my Real Estate Analytics platform to push those boundaries.
+                    I have hands-on experience managing data infrastructure and leading visualization projects. Currently, I am a Data Analyst Intern at Smollan (an extended workforce for Google), where I manage regional data pipelines and ensure data consistency for executive dashboards using Python and Google BigQuery. Previously, I honed my ability to turn complex datasets into clear narratives during a remote internship with Infosys Springboard. I&apos;m particularly fascinated by how Generative AI and agentic workflows are transforming analytics, and I actively build projects like my Real Estate Analytics platform to push those boundaries.
                   </p>
                   <p>
                     My approach is rooted in discipline and curiosity. Whether I&apos;m training ML models or refining an ETL pipeline, I treat every error as a lesson and every project as an opportunity to grow. I believe that sustained, daily effort is the only secret to meaningful progress.

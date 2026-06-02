@@ -5,6 +5,17 @@ import { ExperienceCard } from "@/components/ui/experience-card"
 
 const experiences = [
   {
+    title: "Data Analyst Intern",
+    company: "Smollan (Extended Workforce for Google)",
+    location: "Remote",
+    period: "Apr 2026 – Present",
+    description: [
+      "Managed end-to-end weekly data pipelines for the EMEA region, standardizing web-scraped datasets for mobile hardware sales and carrier tariffs to ensure consistency across 5 executive dashboards.",
+      "Executed advanced SQL queries in Google BigQuery to manage database insertions, leveraging Python (Pandas) for rigorous data cleaning and complex data transformation workflows.",
+      "Audited source data accuracy and structured reporting feeds utilizing advanced Excel and Google Sheets functions (XLOOKUP, VLOOKUP, IMPORTRANGE, Pivot Tables) to bridge raw data with front-end reporting."
+    ]
+  },
+  {
     title: "Intern - Data Visualization",
     company: "Infosys Springboard",
     location: "Remote",
