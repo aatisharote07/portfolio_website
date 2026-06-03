@@ -366,4 +366,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-Built with ❤️ using Next.js and TypeScript
+Built with ❤️ using Next.js and TypeScript.
