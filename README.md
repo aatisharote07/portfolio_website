@@ -194,8 +194,8 @@ location: "San Francisco, CA"
 startDate: "2022-01-01"
 ---
 
-- Developed and maintained React applications
-- Collaborated with cross-functional teams
+- Developed and maintained React applications.
+- Collaborated with cross-functional teams.
 
 ```
 
