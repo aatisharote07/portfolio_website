@@ -12,7 +12,7 @@ A modern, responsive, and easily maintainable portfolio website built with Next.
 - **SEO Optimized**: Meta tags, Open Graph, structured data
 - **Performance**: Optimized images, code splitting, caching
 
-- **Analytics Ready**: Built-in support for Vercel Analytics
+- **Analytics Ready**: Built-in support for Vercel Analytics.
 
 ## 📋 Prerequisites
 
