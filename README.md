@@ -1,4 +1,4 @@
-# Personal Portfolio Website
+# Personal Portfolio Website 
 
 A modern, responsive, and easily maintainable portfolio website built with Next.js 14, TypeScript, and TailwindCSS. Features GitHub integration, markdown-based content management, and automated deployment to Vercel.
 
