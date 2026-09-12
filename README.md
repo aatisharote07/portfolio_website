@@ -10,7 +10,7 @@ A modern, responsive, and easily maintainable portfolio website built with Next.
 - **Easy Content Management**: Markdown-based content system
 - **Dark/Light Theme**: Automatic theme detection with manual toggle
 - **SEO Optimized**: Meta tags, Open Graph, structured data
-- **Performance**: Optimized images, code splitting, caching
+- **Performance**: Optimized images, code splitting, caching 
 
 - **Analytics Ready**: Built-in support for Vercel Analytics.
 
