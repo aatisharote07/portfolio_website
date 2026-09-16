@@ -35,7 +35,7 @@ npm install
 yarn install
 ```
 
-### 2. Environment Setup
+### 2. Environment Setup 
 
 Create a `.env.local` file in the root directory:
 
