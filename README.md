@@ -144,7 +144,7 @@ npm run add-project
 ```
 
 Follow the prompts to enter:
-- Project title
+- Project title 
 - Description
 
 - GitHub URL (optional)
