@@ -47,7 +47,7 @@ GITHUB_USERNAME=your_github_username
 # Site Configuration
 NEXT_PUBLIC_SITE_URL=https://yourdomain.com
 
-# Optional: Analytics
+# Optional: Analytics 
 NEXT_PUBLIC_VERCEL_ANALYTICS_ID=your_analytics_id
 
 
