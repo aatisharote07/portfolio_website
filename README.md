@@ -133,7 +133,7 @@ npm run build
 npm run start
 ```
 
-## 📝 Content Management
+## 📝 Content Management 
 
 ### Adding a New Project
 
