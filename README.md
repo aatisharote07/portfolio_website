@@ -263,7 +263,7 @@ vercel
 
 
 ## 🎨 Customization
-
+ 
 ### Changing Colors
 
 Edit `src/styles/globals.css` to modify the color scheme:
