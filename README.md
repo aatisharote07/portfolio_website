@@ -32,7 +32,7 @@ cd portfolio-website
 # Install dependencies
 npm install
 # or
-yarn install
+yarn install 
 ```
 
 ### 2. Environment Setup 
