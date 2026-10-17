@@ -4,7 +4,7 @@ A modern, responsive, and easily maintainable portfolio website built with Next.
 
 ## 🚀 Features
 
-- **Modern Tech Stack**: Next.js 14, TypeScript, TailwindCSS
+- **Modern Tech Stack**: Next.js 14, TypeScript, TailwindCSS 
 - **Responsive Design**: Mobile-first approach with smooth animations
 - **GitHub Integration**: Automatically fetches and displays your GitHub projects
 - **Easy Content Management**: Markdown-based content system
