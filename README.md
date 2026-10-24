@@ -50,7 +50,7 @@ NEXT_PUBLIC_SITE_URL=https://yourdomain.com
 # Optional: Analytics 
 NEXT_PUBLIC_VERCEL_ANALYTICS_ID=your_analytics_id
 
-
+  
 
 EMAIL_SERVER_USER=your-email@gmail.com
 EMAIL_SERVER_PASSWORD=your-app-password
