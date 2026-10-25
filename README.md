@@ -20,7 +20,7 @@ A modern, responsive, and easily maintainable portfolio website built with Next.
 - GitHub account (for repository integration)
 - Vercel account (for deployment)
 
-## 🛠️ Installation
+## 🛠️ Installation 
 
 ### 1. Clone and Install
 
