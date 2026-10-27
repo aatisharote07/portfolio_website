@@ -12,10 +12,14 @@ export const metadata: Metadata = {
 
 const experiences = [
   {
-    title: "Data Analyst Intern",
-    company: "Smollan (Extended Workforce for Google)",
+    title: "Data Analyst Consultant",
+    company: "Smollan (Client: Google)",
     location: "Remote",
     period: "Apr 2026 – Present",
+    roles: [
+      { title: "Data Analyst Consultant", period: "Oct 2026 – Present" },
+      { title: "Data Analyst Intern", period: "Apr 2026 – Sep 2026" }
+    ],
     description: [
       "Managed end-to-end weekly data pipelines for the EMEA region, standardizing web-scraped datasets for mobile hardware sales and carrier tariffs to ensure consistency across 5 executive dashboards.",
       "Executed advanced SQL queries in Google BigQuery to manage database insertions, leveraging Python (Pandas) for rigorous data cleaning and complex data transformation workflows.",
@@ -38,7 +42,7 @@ const experiences = [
     location: "Remote",
     period: "Mar 2025– Apr 2025",
     description: [
-      "Processed and analyzed 100,000+ daily unstructured posts (36M annually), integrating datasets and identi fying the top 5 content categories driving user engagement.",
+      "Processed and analyzed 100,000+ daily unstructured posts (36M annually), integrating datasets and identifying the top 5 content categories driving user engagement.",
       "Delivered strategic insights such as the popularity of Animals, Science, and Healthy Eating, recommending targeted campaigns and brand partnerships to increase retention"
     ]
   }
@@ -48,7 +52,7 @@ const education = [
   {
     degree: "B.E. in Computer Engineering",
     institution: "University of Mumbai",
-    location: "CGPA: 8.77",
+    location: "CGPA: 7.57",
     period: "Aug 2022 - May 2026",
     description: ""
   },
@@ -97,7 +101,7 @@ export default function ExperiencePage() {
             </h2>
             <div className="space-y-6">
               {experiences.map((exp, index) => (
-                <ExperienceCard key={exp.company} {...exp} index={index} />
+                <ExperienceCard key={`${exp.title}-${exp.period}`} {...exp} index={index} />
               ))}
             </div>
           </section>
