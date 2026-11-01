@@ -78,7 +78,7 @@ export const siteConfig = {
 }
 ```
 
-## 📂 Project Structure
+## 📂 Project Structure 
 
 ```
 portfolio-website/
