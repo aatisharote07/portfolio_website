@@ -22,7 +22,7 @@ A modern, responsive, and easily maintainable portfolio website built with Next.
 
 ## 🛠️ Installation 
 
-### 1. Clone and Install
+### 1. Clone and Install 
 
 ```bash
 # Clone the repository
